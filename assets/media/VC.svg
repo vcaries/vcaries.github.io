@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="206.40001220703124px"
+   height="186.839990234375px"
+   viewBox="146.79999389648438 -18.419995117187497 206.40001220703124 186.839990234375"
+   style="background: none;"
+   preserveAspectRatio="xMidYMid"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="VC.svg"
+   xml:space="preserve"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="6.0693643"
+     inkscape:cx="103.22333"
+     inkscape:cy="93.419998"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3" /><defs
+     id="defs2"><filter
+       id="editing-hole"
+       x="-0.087712665"
+       y="-0.13591095"
+       width="1.1905482"
+       height="1.2952548"><feFlood
+         flood-color="none"
+         result="black"
+         id="feFlood1" /><feMorphology
+         operator="dilate"
+         radius="2"
+         in="SourceGraphic"
+         result="erode"
+         id="feMorphology1" /><feGaussianBlur
+         in="erode"
+         stdDeviation="4"
+         result="blur"
+         id="feGaussianBlur1" /><feOffset
+         in="blur"
+         dx="2"
+         dy="2"
+         result="offset"
+         id="feOffset1" /><feComposite
+         operator="atop"
+         in="offset"
+         in2="black"
+         result="merge"
+         id="feComposite1" /><feComposite
+         operator="in"
+         in="merge"
+         in2="SourceGraphic"
+         result="inner-shadow"
+         id="feComposite2" /></filter></defs><g
+     filter="url(#editing-hole)"
+     id="g3"
+     inkscape:export-filename="icon.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><g
+       transform="translate(183.88264524936676, 117.67499923706055)"
+       id="g2"><path
+         d="M68.89-79.74L68.89-79.74L68.89-79.74Q71.91-81.79 76.09-82.95L76.09-82.95L76.09-82.95Q80.28-84.10 82.86-84.10L82.86-84.10L82.86-84.10Q85.44-84.10 86.15-84.10L86.15-84.10L86.15-83.21L86.15-83.21Q81.97-83.04 78.32-81.57L78.32-81.57L78.32-81.57Q74.67-80.10 72.31-78.19L72.31-78.19L72.31-78.19Q69.95-76.27 67.73-73.11L67.73-73.11L67.73-73.11Q65.50-69.95 64.30-67.73L64.30-67.73L64.30-67.73Q63.10-65.50 61.50-62.03L61.50-62.03L36.76-7.92L36.76-7.92Q33.46-0.71 33.46 1.25L33.46 1.25L32.66 1.25L7.65-55.80L7.65-55.80Q6.41-58.65 4.23-60.03L4.23-60.03L4.23-60.03Q2.05-61.41-0.18-61.41L-0.18-61.41L-0.89-61.41L-0.89-62.30L19.13-62.30L19.13-61.41L18.33-61.41L18.33-61.41Q15.66-61.41 14.77-58.92L14.77-58.92L14.77-58.92Q14.60-58.38 14.60-57.67L14.60-57.67L14.60-57.67Q14.60-56.96 15.04-55.89L15.04-55.89L33.64-9.26L55.71-62.03L55.71-62.03Q60.96-74.40 68.89-79.74ZM131.36-31.24L131.36-31.24L131.36-31.24Q131.36-15.93 123.13-7.34L123.13-7.34L123.13-7.34Q114.90 1.25 99.86 1.25L99.86 1.25L99.86 1.25Q89.71 1.25 81.57-3.03L81.57-3.03L81.57-3.03Q73.42-7.30 68.93-14.68L68.93-14.68L68.93-14.68Q64.44-22.07 64.44-31.19L64.44-31.19L64.44-31.19Q64.44-40.32 68.89-47.70L68.89-47.70L68.89-47.70Q73.34-55.09 81.17-59.32L81.17-59.32L81.17-59.32Q89-63.55 98.61-63.55L98.61-63.55L98.61-63.55Q104.66-63.55 110.94-61.90L110.94-61.90L110.94-61.90Q117.21-60.25 121.40-57.49L121.40-57.49L123.18-44.95L122.38-44.95L122.38-44.95Q120.51-52.42 113.74-56.65L113.74-56.65L113.74-56.65Q106.98-60.88 98.70-60.88L98.70-60.88L98.70-60.88Q86.86-60.88 78.99-52.47L78.99-52.47L78.99-52.47Q71.11-44.05 71.11-31.33L71.11-31.33L71.11-31.33Q71.11-18.60 79.25-10.01L79.25-10.01L79.25-10.01Q87.40-1.42 100.57-1.42L100.57-1.42L100.57-1.42Q113.74-1.42 122.06-9.97L122.06-9.97L122.06-9.97Q130.38-18.51 130.38-33.38L130.38-33.38L131.27-33.38L131.27-33.38Q131.36-32.31 131.36-31.24Z"
+         fill="#000000"
+         id="path2"
+         style="stroke:#5496cc;fill:#5496cc;fill-opacity:1;stroke-opacity:1"
+         inkscape:export-filename="icon.png"
+         inkscape:export-xdpi="200"
+         inkscape:export-ydpi="200" /></g></g><style
+     id="style3">text {
+  font-size: 64px;
+  font-family: Arial Black;
+  dominant-baseline: central;
+  text-anchor: middle;
+}</style></svg>

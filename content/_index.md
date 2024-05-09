@@ -5,34 +5,36 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: hero
-    demo: true # Only display this section in the Hugo Blox Builder demo site
-    content:
-      title: Hugo Academic Theme
-      image:
-        filename: hero-academic.png
-      cta:
-        label: '**Get Started**'
-        url: https://hugoblox.com/templates/
-      cta_alt:
-        label: Ask a question
-        url: https://discord.gg/z8wNYzb
-      cta_note:
-        label: >-
-          <div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Hugo Blox Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/theme-academic-cv" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div>
-      text: 
-    design:
-      background:
-        gradient_end: '#1976d2'
-        gradient_start: '#004ba0'
-        text_color_light: true
+#  - block: hero
+#    demo: true # Only display this section in the Hugo Blox Builder demo site
+#    content:
+#      title: Hugo Academic Theme
+#      image:
+#        filename: hero-academic.png
+#      cta:
+#        label: '**Get Started**'
+#        url: https://hugoblox.com/templates/
+#      cta_alt:
+#        label: Ask a question
+#        url: https://discord.gg/z8wNYzb
+#      cta_note:
+#        label: >-
+#          <div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Hugo Blox Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/theme-academic-cv" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div>
+#      text: 
+#    design:
+#      background:
+#        gradient_end: '#1976d2'
+#        gradient_start: '#004ba0'
+#        text_color_light: true
   - block: about.biography
     id: about
     content:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+      
   - block: experience
+    id: experience
     content:
       title: Experience
       # Date format for experience
@@ -44,29 +46,68 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: PhD. student
+          company: Safran Aircraft Engines
+          company_url: 'https://www.safran-group.com/companies/safran-aircraft-engines'
+          company_logo: sae
+          location: Moissy-Cramayel / Ecole Centrale de Lyon
+          date_start: '2022-03-21'
           date_end: ''
           description: |2-
-              Responsibilities include:
+              Subject: Multi-fidelity modeling of the tip-leakage flow for an axial compressor rotor in compressible flow
+            
+              Main topics:
+              * Low-order modeling: Panel methods
+              * Tip-leakage flow analysis 
+              * RANS simulations
+              * Software development: Python, Fortran
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+        - title: CFD Engineer
+          company: Safran Aircraft Engines
+          company_url: 'https://www.safran-group.com/companies/safran-aircraft-engines'
+          company_logo: sae
+          location: Moissy-Cramayel
+          date_start: '2021-11-01'
+          date_end: '2022-03-19'
+          description: |2-
+              Main topics:
+              * Methodology development
+              * RANS simulations
+              * Software development: Python
+            
+        - title: Intern
+          company: Safran Aircraft Engines
+          company_url: 'https://www.safran-group.com/companies/safran-aircraft-engines'
+          company_logo: sae
+          location: Moissy-Cramayel
+          date_start: '2021-04-01'
+          date_end: '2021-09-30'
+          description: |2-
+              Subject: Wall Resolved Large Eddy Simulation (WRLES) of 2.5D propeller configurations
+            
+              Main topics:
+              * High-fidelity modeling: WRLES
+              * High Performance Computing 
+              * Methodology development
+              * Software development: Python
+  
+        - title: Intern
+          company: Louisiana State University
+          company_url: 'https://www.lsu.edu/'
+          company_logo: lsu
+          location: Baton Rouge, LA, USA
+          date_start: '2019-03-01'
+          date_end: '2019-08-30'
+          description: |2-
+              Subject: Shell eco-marathon vehicle race strategy optimization
+            
+              Main topics:
+              * Low-order modeling: Vehicle dynamics
+              * Software development: Python
+            
     design:
-      columns: '2'
+      columns: '1'
+      
 #  - block: accomplishments
 #    content:
 #      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -109,6 +150,7 @@ sections:
 #          url: ''
 #    design:
 #      columns: '2'
+  
 #  - block: collection
 #    id: posts
 #    content:
@@ -136,33 +178,35 @@ sections:
 #      # Choose a layout view
 #      view: compact
 #      columns: '2'
-  - block: portfolio
-    id: projects
-    content:
-      title: Projects
-      filters:
-        folders:
-          - project
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-      default_button_index: 0
-      # Filter toolbar (optional).
-      # Add or remove as many filters (`filter_button` instances) as you like.
-      # To show all items, set `tag` to "*".
-      # To filter by a specific tag, set `tag` to an existing tag name.
-      # To remove the toolbar, delete the entire `filter_button` block.
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
-    design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
-      view: showcase
-      # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
+  
+#  - block: portfolio
+#    id: projects
+#    content:
+#      title: Projects
+#      filters:
+#        folders:
+#          - project
+#      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+#      default_button_index: 0
+#      # Filter toolbar (optional).
+#      # Add or remove as many filters (`filter_button` instances) as you like.
+#      # To show all items, set `tag` to "*".
+#      # To filter by a specific tag, set `tag` to an existing tag name.
+#      # To remove the toolbar, delete the entire `filter_button` block.
+#      buttons:
+#        - name: All
+#          tag: '*'
+#        - name: Deep Learning
+#          tag: Deep Learning
+#        - name: Other
+#          tag: Demo
+#    design:
+#      # Choose how many columns the section has. Valid values: '1' or '2'.
+#      columns: '1'
+#      view: showcase
+#      # For Showcase view, flip alternate rows?
+#      flip_alt_rows: false
+      
 #  - block: markdown
 #    content:
 #      title: Gallery
@@ -171,46 +215,60 @@ sections:
 #        {{< gallery album="demo" >}}
 #    design:
 #      columns: '1'
+  
+#  - block: collection
+#    id: featured
+#    content:
+#      title: Featured Publications
+#      filters:
+#        folders:
+#          - publication
+#        featured_only: true
+#    design:
+#      columns: '2'
+#      view: card
+      
   - block: collection
-    id: featured
+    id: publications
     content:
-      title: Featured Publications
+      title: Publications
+      text: 
       filters:
         folders:
           - publication
-        featured_only: true
+        exclude_featured: false
     design:
       columns: '2'
       view: card
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
+      
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Talks
       filters:
         folders:
           - event
     design:
       columns: '2'
-      view: compact
+      view: card
+    
+  - block: collection
+    id: teaching
+    content:
+      title: Teaching
+      filters:
+        folders:
+          - teaching
+    design:
+      columns: '2'
+      view: card
+      
 #  - block: tag_cloud
 #    content:
 #      title: Popular Topics
 #    design:
 #      columns: '2'
+  
   - block: contact
     id: contact
     content:
@@ -250,7 +308,7 @@ sections:
 #          name: Zoom Me
 #          link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
-      autolink: true
+#      autolink: true
       # Email form provider
 #      form:
 #        provider: netlify
@@ -261,4 +319,5 @@ sections:
 #          captcha: false
     design:
       columns: '2'
+
 ---

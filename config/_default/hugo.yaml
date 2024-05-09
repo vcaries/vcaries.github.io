@@ -62,3 +62,14 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+
+cascade:
+  - _target:
+      path: /publication/**
+    share: false
+  - _target:
+      path: /event/**
+    share: false
+  - _target:
+      path: /teaching/**
+    share: false

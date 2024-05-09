@@ -32,7 +32,7 @@ interests:
   - Turbomachinery
   - Panel methods
   - Tip-leakage flow
-  - Programming
+  - Software development
 
 # Education to show in About widget
 education:
@@ -63,7 +63,7 @@ social:
     link: https://scholar.google.com/citations?view_op=list_works&hl=fr&hl=fr&user=Zk00T9YAAAAJ
   - icon: hal 
     icon_pack: ai
-    link: https://www.researchgate.net/profile/Valentin-Caries
+    link: https://hal.science/search/index/q/*/authIdHal_s/valentin-caries
   - icon: researchgate 
     icon_pack: ai
     link: https://www.researchgate.net/profile/Valentin-Caries
