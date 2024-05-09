@@ -1,90 +1,54 @@
 ---
 # Display name
-title: 吳健雄
+title: Valentin Caries
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: 
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Valentin
+last_name: Caries
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: PhD. Student in Aerodynamic Modeling for Turbomachinery
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Ecole Centrale de Lyon
+    url: https://www.ec-lyon.fr/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include turbomachinery, computational fluid dynamics, and programming.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Turbomachinery
+  - Panel methods
+  - Tip-leakage flow
+  - Programming
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
-
-# Skills
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-skills:
-  - name: Technical
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: python
-        icon_pack: fab
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-line
-        icon_pack: fas
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: database
-        icon_pack: fas
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-hiking
-        icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-        icon_pack: fas
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera-retro
-        icon_pack: fas
+    - course: PhD. Student in Aerodynamic Modeling for Turbomachinery 
+      institution: Ecole Centrale de Lyon
+      year: 2022 - Now
+    - course: Advanced MSc. student in Aerospace Propulsion
+      institution: ISAE-SUPAERO
+      year: 2020 - 2021
+    - course: MSc. student in Mechanical (dual master's degree)
+      institution: Ecole Centrale de Lyon
+      year: 2019 - 2020
+    - course: MSc. student in Mechanical Engineering
+      institution: Polytech Lyon
+      year: 2017 - 2020
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -93,32 +57,26 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
+    link: mailto:valentin.caries@ec-lyon.fr
+  - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: ai
+    link: https://scholar.google.com/citations?view_op=list_works&hl=fr&hl=fr&user=Zk00T9YAAAAJ
+  - icon: hal 
+    icon_pack: ai
+    link: https://www.researchgate.net/profile/Valentin-Caries
+  - icon: researchgate 
+    icon_pack: ai
+    link: https://www.researchgate.net/profile/Valentin-Caries
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  - icon: cv
+    link: https://www.linkedin.com/in/valentin-caries/
+  - icon: orcid 
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: https://orcid.org/my-orcid?orcid=0000-0002-6692-8712
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hi, I am Valentin! Thanks for visiting my website. I am a PhD student at the Ecole Centrale de Lyon. My current research focuses on multi-fidelity modeling of tip leakage flow in axial compressor rotors in compressible flow. This current PhD thesis is funded by Safran Aircraft Engines.
 {style="text-align: justify;"}
