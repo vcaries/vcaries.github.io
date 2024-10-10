@@ -1,12 +1,12 @@
 ---
 title: External Aerodynamics practicals
 event_url: https://www.ec-lyon.fr/en/academics/general-engineering/programme-formation/parcours-electif/optional-courses-curriculum?cours=2858519
-date: '2023-10-01T13:00:00Z'
+date: ''
 
 authors: [admin]
 tags: [External Aerodynamics, Practical, Ecole Centrale de Lyon]
 summary: |
-  **Year:** 2022 to 2025
+  **Year:** 2022 - 2025  
   **Duration:** 24 hours annually  
   **Location:** [Ecole Centrale de Lyon](https://www.ec-lyon.fr/en)  
   **Course:** [External Aerodynamics](https://www.ec-lyon.fr/en/academics/general-engineering/programme-formation/parcours-electif/optional-courses-curriculum?cours=2858519)  
