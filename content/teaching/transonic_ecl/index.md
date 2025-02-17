@@ -1,7 +1,7 @@
 ---
 title: Transonic Aerodynamics
 event_url: https://www.ec-lyon.fr/en/academics/general-engineering/programme-formation/parcours-electif/optional-courses-curriculum?cours=2858519
-date: ''
+date: '-'
 
 authors: [admin]
 tags: [Transonic Flows, External Aerodynamics, Practical, Ecole Centrale de Lyon]
