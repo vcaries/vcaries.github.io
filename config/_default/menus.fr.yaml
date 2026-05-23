@@ -1,0 +1,29 @@
+# Navigation — Français (langue par défaut)
+#   Les liens en `#xxx` pointent vers les sections (blocs) de la page d'accueil,
+#   identifiées par leur `id` dans content/fr/_index.md.
+#   NB : l'entrée « Projets » (#projects) a été retirée tant que la section
+#   Projets n'est pas publiée. Pour la remettre, ajoute :
+#     - name: Projets
+#       url: '#projects'
+#       weight: 30
+
+main:
+  - name: À propos
+    url: '#about'
+    weight: 10
+  - name: Compétences
+    url: '#skills'
+    weight: 20
+  - name: Publications
+    url: '#publications'
+    weight: 40
+  - name: Enseignement
+    url: '#teaching'
+    weight: 50
+  - name: Contact
+    url: '#contact'
+    weight: 60
+  # Lien direct vers le CV (PDF dans static/uploads/resume.pdf)
+  - name: CV
+    url: uploads/resume.pdf
+    weight: 70

@@ -1,0 +1,29 @@
+# Navigation — English
+#   The `#xxx` links point to the homepage sections (blocks), identified by
+#   their `id` in content/en/_index.md.
+#   NB: the "Projects" (#projects) entry was removed while the Projects section
+#   is unpublished. To restore it, add:
+#     - name: Projects
+#       url: '#projects'
+#       weight: 30
+
+main:
+  - name: About
+    url: '#about'
+    weight: 10
+  - name: Skills
+    url: '#skills'
+    weight: 20
+  - name: Publications
+    url: '#publications'
+    weight: 40
+  - name: Teaching
+    url: '#teaching'
+    weight: 50
+  - name: Contact
+    url: '#contact'
+    weight: 60
+  # Direct link to the CV (PDF in static/uploads/resume.pdf)
+  - name: CV
+    url: uploads/resume.pdf
+    weight: 70

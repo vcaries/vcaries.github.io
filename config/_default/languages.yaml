@@ -1,22 +1,32 @@
 # Languages
-#   Create a section for each of your site's languages.
+#   One section per language. French (fr) is the default language and is served at
+#   the site root (e.g. https://vcaries.github.io/). English (en) is served under /en/.
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
-# Default language
+# Default language: French (served at the root URL)
+fr:
+  languageCode: fr-fr
+  languageName: Français
+  contentDir: content/fr
+  weight: 1
+  title: Valentin Caries
+  params:
+    description: >-
+      Valentin Caries — Ingénieur de recherche et doctorant en aérodynamique,
+      spécialisé en développement Python scientifique. Simulation CFD,
+      modélisation d'ordre réduit, data engineering et machine learning pour
+      l'ingénierie.
+
+# Second language: English (served under /en/)
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
-
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+  languageName: English
+  contentDir: content/en
+  weight: 2
+  title: Valentin Caries
+  params:
+    description: >-
+      Valentin Caries — Research engineer and PhD candidate in aerodynamics,
+      specialized in scientific Python development. CFD simulation,
+      reduced-order modeling, data engineering and machine learning for
+      engineering.

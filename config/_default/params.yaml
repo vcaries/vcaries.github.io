@@ -17,8 +17,8 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'Valentin Caries professional website'
+    org_name: 'Valentin Caries'
+    description: 'Valentin Caries — Ingénieur de recherche et doctorant en aérodynamique et développement Python scientifique (CFD, simulation, modélisation d''ordre réduit, data engineering, machine learning).'
     twitter: ''
   analytics:
     google_analytics: ''
@@ -26,7 +26,7 @@ marketing:
     google_tag_manager: 'GTM-PXT3GFHN'
     microsoft_clarity: ''
   verification:
-    google: ''
+    google: 'googlec913110af28d88a5'
     baidu: ''
 
 # Site header
@@ -36,7 +36,7 @@ header:
     enable: true
     align: r
     show_logo: true
-    show_language: false
+    show_language: true # Show the FR/EN language switcher in the navbar
     show_day_night: true
     show_search: true
     highlight_active_link: true
@@ -70,7 +70,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/vcaries/vcaries.github.io'
     content_dir: content
     branch: main
   avatar:

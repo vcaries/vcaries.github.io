@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# XML sitemap (Hugo generates a multilingual sitemap index at the site root)
+Sitemap: {{ "sitemap.xml" | absURL }}
