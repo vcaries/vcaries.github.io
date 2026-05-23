@@ -24,6 +24,6 @@ main:
     url: '#contact'
     weight: 60
   # Lien direct vers le CV (PDF dans static/uploads/resume.pdf)
-  - name: CV
-    url: uploads/resume.pdf
-    weight: 70
+#  - name: CV
+#    url: uploads/resume.pdf
+#    weight: 70
