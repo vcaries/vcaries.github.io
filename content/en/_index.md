@@ -155,8 +155,9 @@ sections:
   - block: collection
     id: publications
     content:
-      title: Publications
-      text: 'Peer-reviewed journal and conference papers, and my PhD thesis. Full list on [Google Scholar](https://scholar.google.com/citations?hl=en&user=Zk00T9YAAAAJ) and [HAL](https://hal.science/search/index/q/*/authIdHal_s/valentin-caries).'
+      title: Recent publications
+      count: 4
+      text: 'A selection of my recent work — see [all publications](/en/publication/). Also on [Google Scholar](https://scholar.google.com/citations?hl=en&user=Zk00T9YAAAAJ) and [HAL](https://hal.science/search/index/q/*/authIdHal_s/valentin-caries).'
       filters:
         folders:
           - publication
@@ -165,27 +166,8 @@ sections:
       columns: '2'
       view: card
 
-  - block: collection
-    id: talks
-    content:
-      title: Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: card
-
-  - block: collection
-    id: teaching
-    content:
-      title: Teaching
-      filters:
-        folders:
-          - teaching
-    design:
-      columns: '2'
-      view: card
+  # Talks and Teaching now have their own pages, reachable from the menu
+  # (/en/event/ and /en/teaching/). This keeps the homepage short.
 
   - block: contact
     id: contact

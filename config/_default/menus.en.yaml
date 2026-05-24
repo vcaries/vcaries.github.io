@@ -1,11 +1,12 @@
 # Navigation — English
-#   The `#xxx` links point to the homepage sections (blocks), identified by
-#   their `id` in content/en/_index.md.
-#   NB: the "Projects" (#projects) entry was removed while the Projects section
-#   is unpublished. To restore it, add:
+#   `#xxx` links point to a homepage section (About, Skills, Contact).
+#   `/xxx/` links point to a dedicated page (Publications, Talks, Teaching) —
+#   this is what keeps the homepage short.
+#   NB: the "Projects" entry was removed while the section is unpublished.
+#   To restore it (dedicated page), add:
 #     - name: Projects
-#       url: '#projects'
-#       weight: 30
+#       url: '/en/project/'
+#       weight: 35
 
 main:
   - name: About
@@ -15,10 +16,13 @@ main:
     url: '#skills'
     weight: 20
   - name: Publications
-    url: '#publications'
+    url: '/en/publication/'
+    weight: 30
+  - name: Talks
+    url: '/en/event/'
     weight: 40
   - name: Teaching
-    url: '#teaching'
+    url: '/en/teaching/'
     weight: 50
   - name: Contact
     url: '#contact'

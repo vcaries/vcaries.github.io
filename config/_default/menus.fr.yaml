@@ -1,11 +1,12 @@
 # Navigation — Français (langue par défaut)
-#   Les liens en `#xxx` pointent vers les sections (blocs) de la page d'accueil,
-#   identifiées par leur `id` dans content/fr/_index.md.
-#   NB : l'entrée « Projets » (#projects) a été retirée tant que la section
-#   Projets n'est pas publiée. Pour la remettre, ajoute :
+#   Les liens en `#xxx` pointent vers une section de la page d'accueil (À propos,
+#   Compétences, Contact). Les liens en `/xxx/` pointent vers une page dédiée
+#   (Publications, Conférences, Enseignement) — c'est ce qui garde l'accueil court.
+#   NB : l'entrée « Projets » a été retirée tant que la section n'est pas publiée.
+#   Pour la remettre (page dédiée), ajoute :
 #     - name: Projets
-#       url: '#projects'
-#       weight: 30
+#       url: '/project/'
+#       weight: 35
 
 main:
   - name: À propos
@@ -15,10 +16,13 @@ main:
     url: '#skills'
     weight: 20
   - name: Publications
-    url: '#publications'
+    url: '/publication/'
+    weight: 30
+  - name: Conférences
+    url: '/event/'
     weight: 40
   - name: Enseignement
-    url: '#teaching'
+    url: '/teaching/'
     weight: 50
   - name: Contact
     url: '#contact'

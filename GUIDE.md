@@ -110,6 +110,24 @@ D:\Codes\hugo\hugo.exe server -D
 > EN **avec le même nom de dossier**, et inversement. Sinon le sélecteur de
 > langue n'aura rien à pointer.
 
+### Architecture du site (accueil court + pages dédiées)
+
+Le site est organisé en **deux niveaux** pour rester lisible quand il grandit :
+
+- **La page d'accueil** (`content/<langue>/_index.md`) est volontairement **courte** :
+  à propos, compétences & services, expérience, une **sélection** des publications
+  les plus récentes, et le contact.
+- **Les pages dédiées** listent l'intégralité d'une rubrique et sont accessibles
+  via le menu : Publications (`/publication/`), Conférences (`/event/`),
+  Enseignement (`/teaching/`) — et Projets (`/project/`) une fois publiés.
+
+Concrètement : quand tu ajoutes une publication, elle apparaît **automatiquement**
+sur la page `/publication/` et, si elle fait partie des plus récentes, dans la
+sélection de l'accueil. Rien d'autre à faire.
+
+Pour changer le nombre d'éléments affichés sur l'accueil, modifie `count:` dans le
+bloc `collection` (id `publications`) des deux `_index.md`.
+
 ### ⚠️ État actuel : la section Projets est masquée
 
 La section **Projets existe dans les sources mais n'est PAS publiée** sur le site

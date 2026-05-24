@@ -155,8 +155,9 @@ sections:
   - block: collection
     id: publications
     content:
-      title: Publications
-      text: 'Articles de revue et de conférence à comité de lecture, et ma thèse de doctorat. Liste complète sur [Google Scholar](https://scholar.google.com/citations?hl=fr&user=Zk00T9YAAAAJ) et [HAL](https://hal.science/search/index/q/*/authIdHal_s/valentin-caries).'
+      title: Publications récentes
+      count: 4
+      text: 'Une sélection de mes travaux récents — voir [toutes mes publications](/publication/). Également sur [Google Scholar](https://scholar.google.com/citations?hl=fr&user=Zk00T9YAAAAJ) et [HAL](https://hal.science/search/index/q/*/authIdHal_s/valentin-caries).'
       filters:
         folders:
           - publication
@@ -165,27 +166,8 @@ sections:
       columns: '2'
       view: card
 
-  - block: collection
-    id: talks
-    content:
-      title: Conférences
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: card
-
-  - block: collection
-    id: teaching
-    content:
-      title: Enseignement
-      filters:
-        folders:
-          - teaching
-    design:
-      columns: '2'
-      view: card
+  # Conférences et Enseignement ont désormais leurs propres pages, accessibles
+  # via le menu (/event/ et /teaching/). On garde l'accueil court.
 
   - block: contact
     id: contact
