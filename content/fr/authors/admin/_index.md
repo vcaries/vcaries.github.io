@@ -56,7 +56,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:valentin.caries@ec-lyon.fr
+    link: mailto:valentin.caries@ifpen.fr
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?hl=fr&user=Zk00T9YAAAAJ

@@ -36,7 +36,7 @@ publication_short: In *IJTPP*
 abstract:  This paper presents a low-order three-dimensional approach for predicting the inviscid flow around low-pressure compressors. The method is suitable for early design stages and allows a broad exploration of design possibilities at minimal cost. It combines the vortex lattice method with the panel method by using a mixed boundary condition. In addition, it models the tip-leakage flow using an iterative algorithm. First, the verification of the approach is carried out on a low-pressure compressor configuration. The wake length is a decisive parameter for ensuring correct flow deflection in ducted applications. A periodicity condition is introduced and validated, which reduces the computational and memory requirements. On average, the calculations take less than one minute in real time. The approach is validated on the same low-pressure compressor configuration. A good agreement is obtained with RANS concerning the mean flow and the tip-leakage flow characteristics. Sensitivity to the mass flow rate is also fairly well predicted, although discrepancies develop at lower mass flow rates. 
 
 # Summary. An optional shortened abstract.
-summary: This paper introduces a low-order, three-dimensional method for predicting inviscid flow around shrouded fans, aimed at early-stage design. By combining the vortex lattice and panel methods with a mixed boundary condition, it allows efficient exploration of design options. The method also models tip-leakage flow through an iterative algorithm. A periodicity condition is validated, reducing computational demand, with calculations completed in under a minute. The method agrees well with RANS for mean flow and tip-leakage characteristics, though some discrepancies arise at lower mass flow rates.
+summary: 🏆 IJTPP Editors' Choice. This paper introduces a low-order, three-dimensional method for predicting inviscid flow around shrouded fans, aimed at early-stage design. By combining the vortex lattice and panel methods with a mixed boundary condition, it allows efficient exploration of design options. The method also models tip-leakage flow through an iterative algorithm. A periodicity condition is validated, reducing computational demand, with calculations completed in under a minute. The method agrees well with RANS for mean flow and tip-leakage characteristics, though some discrepancies arise at lower mass flow rates.
 
 tags: [Panel Method, Vortex Lattice Method, Axial Compressor Rotor, Tip-Leakage Flow]
 
@@ -79,3 +79,5 @@ image:
 #   Otherwise, set `slides: ""`.
 #slides: example
 ---
+
+**🏆 Selected as an _Editors' Choice_ article by the International Journal of Turbomachinery, Propulsion and Power.**

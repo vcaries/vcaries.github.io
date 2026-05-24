@@ -155,6 +155,35 @@ Le plus simple : duplique un dossier dans `content/fr/publication/` et
 *(Alternative : le dépôt contient un workflow qui convertit un fichier
 `publications.bib` en pages — mais l'édition manuelle reste la plus simple ici.)*
 
+### Préparer une image de couverture (n'importe quel format)
+
+Le thème **recadre** automatiquement les images des cartes (publications, projets,
+conférences) vers un format fixe. Une image trop large, trop haute ou de ratio
+inhabituel paraît donc « zoomée » ou mal cadrée.
+
+**Solution :** le script `tools/make_featured.py` normalise **n'importe quelle
+image** vers un cadre uniforme **16:9 (1200×675)**, en plaçant l'image *entière*
+(sans rognage) sur un **fond flou** généré à partir de l'image. Résultat : aucun
+contenu coupé, aucun zoom, et toutes les cartes ont le même format propre.
+
+```powershell
+# Installe Pillow une fois : pip install pillow
+# Écrase l'image existante :
+python tools\make_featured.py content\fr\publication\mon-article\featured.png
+
+# Ou depuis une image source quelconque vers la destination voulue :
+python tools\make_featured.py "C:\chemin\ma-photo.jpg" content\fr\event\ma-conf\featured.jpg
+```
+
+Règles pratiques :
+
+- Lance-le **dans les deux langues** (`content/fr/...` ET `content/en/...`), ou
+  copie le `featured` généré dans les deux dossiers.
+- Le format de sortie suit l'extension : `.png` reste PNG, `.jpg` reste JPEG.
+- Astuce : si une image précise est mal cadrée, tu peux aussi forcer le centrage
+  du recadrage du thème en ajoutant `focal_point: Center` (ou `Top`, `Smart`…)
+  dans le bloc `image:` du fichier `index.md`.
+
 ---
 
 ## 3. Publier sur GitHub

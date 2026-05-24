@@ -193,7 +193,7 @@ sections:
       title: Let's work together
       subtitle: 'Freelance & consulting — scientific Python, CFD, data, ML'
       text: 'Have a project in mind, or a problem at the boundary of physics and code? Get in touch.'
-      email: valentin.caries@ec-lyon.fr
+      email: valentin.caries@ifpen.fr
       autolink: true
     design:
       columns: '2'

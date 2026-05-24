@@ -36,7 +36,7 @@ publication_short: In *IJTPP*
 abstract:  This paper presents a low-order three-dimensional approach for predicting the inviscid flow around low-pressure compressors. The method is suitable for early design stages and allows a broad exploration of design possibilities at minimal cost. It combines the vortex lattice method with the panel method by using a mixed boundary condition. In addition, it models the tip-leakage flow using an iterative algorithm. First, the verification of the approach is carried out on a low-pressure compressor configuration. The wake length is a decisive parameter for ensuring correct flow deflection in ducted applications. A periodicity condition is introduced and validated, which reduces the computational and memory requirements. On average, the calculations take less than one minute in real time. The approach is validated on the same low-pressure compressor configuration. A good agreement is obtained with RANS concerning the mean flow and the tip-leakage flow characteristics. Sensitivity to the mass flow rate is also fairly well predicted, although discrepancies develop at lower mass flow rates. 
 
 # Résumé court (optionnel).
-summary: Cet article présente une méthode tridimensionnelle d'ordre réduit pour prédire l'écoulement non visqueux autour des soufflantes carénées, dédiée aux premières phases de conception. En combinant la méthode du maillage de tourbillons (VLM) et la méthode des panneaux via une condition aux limites mixte, elle permet d'explorer efficacement l'espace de conception. Le jeu en tête (tip-leakage flow) est modélisé par un algorithme itératif. Une condition de périodicité est validée, réduisant le coût de calcul à moins d'une minute. Les résultats concordent bien avec la RANS pour l'écoulement moyen et le jeu en tête, avec quelques écarts aux faibles débits.
+summary: 🏆 « Editors' Choice » de l'IJTPP. Cet article présente une méthode tridimensionnelle d'ordre réduit pour prédire l'écoulement non visqueux autour des soufflantes carénées, dédiée aux premières phases de conception. En combinant la méthode du maillage de tourbillons (VLM) et la méthode des panneaux via une condition aux limites mixte, elle permet d'explorer efficacement l'espace de conception. Le jeu en tête (tip-leakage flow) est modélisé par un algorithme itératif. Une condition de périodicité est validée, réduisant le coût de calcul à moins d'une minute. Les résultats concordent bien avec la RANS pour l'écoulement moyen et le jeu en tête, avec quelques écarts aux faibles débits.
 
 tags: [Panel Method, Vortex Lattice Method, Axial Compressor Rotor, Tip-Leakage Flow]
 
@@ -79,3 +79,5 @@ image:
 #   Otherwise, set `slides: ""`.
 #slides: example
 ---
+
+**🏆 Article distingué « _Editors' Choice_ » par l'International Journal of Turbomachinery, Propulsion and Power.**
