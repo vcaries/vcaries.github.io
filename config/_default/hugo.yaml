@@ -37,7 +37,7 @@ outputs:
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
-  quality: 75
+  quality: 90 # Higher = sharper processed thumbnails (was 75, which softened images)
   anchor: smart
 timeout: 600000
 taxonomies:

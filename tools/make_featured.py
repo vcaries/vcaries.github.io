@@ -21,9 +21,9 @@ Requires: Pillow  (pip install pillow)
 import sys, os
 from PIL import Image, ImageFilter
 
-TARGET_W, TARGET_H = 1200, 675          # 16:9 — good for cards AND social sharing
+TARGET_W, TARGET_H = 1600, 900          # 16:9 — high-res for crisp cards, retina & social
 INNER = 0.90                            # foreground occupies 90% of the canvas
-BG_BLUR = 28                            # background blur radius
+BG_BLUR = 38                            # background blur radius
 BG_DARKEN = 0.82                        # multiply background brightness (0-1)
 
 def cover_resize(im, w, h):
@@ -55,7 +55,7 @@ def make(inp, outp):
     canvas.paste(fg, (x, y))
     ext = os.path.splitext(outp)[1].lower()
     if ext in (".jpg", ".jpeg"):
-        canvas.save(outp, "JPEG", quality=88, optimize=True)
+        canvas.save(outp, "JPEG", quality=92, optimize=True)
     else:
         canvas.save(outp, "PNG", optimize=True)
     print(f"  {inp}  ->  {outp}  ({TARGET_W}x{TARGET_H})")
