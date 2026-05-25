@@ -1,5 +1,5 @@
 ---
-draft: true   # section masquée tant que les projets ne sont pas finalisés
+draft: false
 title: Projets
 cms_exclude: true
 
