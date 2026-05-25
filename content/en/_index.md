@@ -126,31 +126,29 @@ sections:
   #   2) re-add the "Projects" entry in config/_default/menus.en.yaml,
   #   3) set `draft: false` in content/en/project/**/index.md (and _index.md).
   # --------------------------------------------------------------------------
-  #  - block: portfolio
-  #    id: projects
-  #    content:
-  #      title: Projects
-  #      subtitle: 'Selected engineering & software projects'
-  #      text: ''
-  #      filters:
-  #        folders:
-  #          - project
-  #      default_button_index: 0
-  #      buttons:
-  #        - name: All
-  #          tag: '*'
-  #        - name: Scientific Python
-  #          tag: Scientific Python
-  #        - name: CFD
-  #          tag: CFD
-  #        - name: Data Engineering
-  #          tag: Data Engineering
-  #        - name: Machine Learning
-  #          tag: Machine Learning
-  #    design:
-  #      columns: '1'
-  #      view: showcase
-  #      flip_alt_rows: false
+  - block: portfolio
+    id: projects
+    content:
+      title: Projects
+      subtitle: 'Selected engineering & software projects'
+      text: ''
+      filters:
+        folders:
+          - project
+      default_button_index: 0
+      buttons:
+        - name: All
+          tag: '*'
+        - name: Scientific Python
+          tag: Scientific Python
+        - name: Web
+          tag: Web
+        - name: Dimensional analysis
+          tag: Dimensional analysis
+    design:
+      columns: '1'
+      view: showcase
+      flip_alt_rows: false
 
   - block: collection
     id: publications

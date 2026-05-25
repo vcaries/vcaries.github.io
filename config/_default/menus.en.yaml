@@ -18,6 +18,9 @@ main:
   - name: Publications
     url: '/en/publication/'
     weight: 30
+  - name: Projects
+    url: '/en/project/'
+    weight: 35
   - name: Talks
     url: '/en/event/'
     weight: 40
