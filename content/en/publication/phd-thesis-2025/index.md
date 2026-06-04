@@ -24,13 +24,13 @@ tags: [Tip-Leakage Flow, Reduced-order Modeling, Panel Method, Vortex Lattice Me
 
 featured: true
 
-url_pdf: 'https://theses.fr/2021LYSEC014'
+url_pdf: 'https://theses.fr/2025ECDL0015'
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://theses.fr/2021LYSEC014'
+url_source: 'https://theses.fr/2025ECDL0015'
 url_video: ''
 
 image:
