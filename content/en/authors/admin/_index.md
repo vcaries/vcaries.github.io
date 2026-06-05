@@ -82,7 +82,7 @@ social:
 highlight_name: true
 ---
 
-I am Valentin Caries, a **research engineer at IFP Energies nouvelles (IFPEN)**, where I work on multiphase pump systems. I hold a **PhD in aerodynamics from École Centrale de Lyon** (2025), carried out in partnership with Safran Aircraft Engines. My work sits at the meeting point of **fluid mechanics, numerical methods and software engineering**: I design physical models, turn them into fast and maintainable code, and validate them against high-fidelity simulations and experiments.
+I am Valentin Caries, a **PhD in aerodynamics** (École Centrale de Lyon, 2025) and **research engineer**. I build **fast, reliable scientific software for fluid mechanics**, at the meeting point of physics, numerical methods and software engineering: I turn physical models into performant, maintainable code and validate it against high-fidelity simulations and experiments. I currently work at **IFP Energies nouvelles (IFPEN)** on multiphase pump systems, after a PhD carried out in partnership with Safran Aircraft Engines.
 
 During my PhD I developed a low-order, three-dimensional aerodynamic solver that predicts the flow around compressor and fan rotors, including the notoriously difficult tip-leakage flow, in seconds instead of hours, making it usable for early-stage design exploration. I have worked across the full computational spectrum, from **wall-resolved Large Eddy Simulation (LES) on HPC clusters** to **reduced-order panel and vortex-lattice methods**, and built the data and post-processing tooling that ties it all together.
 

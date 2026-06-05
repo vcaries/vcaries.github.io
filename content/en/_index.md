@@ -4,6 +4,11 @@ title: ''
 date: 2022-10-24
 type: landing
 
+# SEO description (meta description / Google preview snippet). The theme reads
+# the `summary` key first; set per-page and per-language, it overrides the
+# global params.yaml description.
+summary: 'PhD in aerodynamics and research engineer. I build fast, reliable scientific software for fluid mechanics: CFD, simulation, reduced-order modeling, data and high-performance computing. Projects and freelance work.'
+
 sections:
   - block: about.biography
     id: about

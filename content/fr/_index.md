@@ -4,6 +4,11 @@ title: ''
 date: 2022-10-24
 type: landing
 
+# Description SEO (balise meta description / aperçu Google). Le thème lit la clé
+# `summary` en priorité ; définie par page et par langue, elle prime sur la
+# description globale de params.yaml.
+summary: 'Docteur en aérodynamique et ingénieur de recherche, je conçois des logiciels scientifiques rapides et fiables pour la mécanique des fluides : CFD, simulation, modélisation d''ordre réduit, data et calcul haute performance. Projets et missions freelance.'
+
 sections:
   - block: about.biography
     id: about
