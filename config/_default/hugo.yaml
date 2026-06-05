@@ -50,6 +50,19 @@ markup:
   goldmark:
     renderer:
       unsafe: true # Allow raw HTML in Markdown (used by the Services/Skills sections)
+    extensions:
+      # Protect LaTeX math from Markdown processing (otherwise `a_{x} = w_{y}`
+      # is parsed as emphasis and `\,` is stripped). KaTeX then renders the
+      # preserved delimiters client-side.
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - ['$$', '$$']
+            - ['\[', '\]']
+          inline:
+            - ['$', '$']
+            - ['\(', '\)']
 related:
   threshold: 80
   includeNewer: true
