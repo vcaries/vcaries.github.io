@@ -141,10 +141,12 @@ sections:
           tag: '*'
         - name: Scientific Python
           tag: Scientific Python
-        - name: Web
+        - name: CFD & Aerodynamics
+          tag: Aerodynamics
+        - name: High-Performance Computing
+          tag: High-Performance Computing
+        - name: Web Apps
           tag: Web
-        - name: Dimensional analysis
-          tag: Dimensional analysis
     design:
       columns: '1'
       view: showcase
@@ -171,10 +173,10 @@ sections:
     id: contact
     content:
       title: Let's work together
-      subtitle: 'Freelance & consulting — scientific Python, CFD, data, ML'
-      text: 'Have a project in mind, or a problem at the boundary of physics and code? Get in touch.'
-      email: valentin.caries@ifpen.fr
-      autolink: true
+      subtitle: 'Freelance & consulting: scientific Python, CFD, simulation, data engineering'
+      # Professional email to be added later; routing contact via LinkedIn for now
+      # (the IFPEN work address is intentionally not used for freelance contact).
+      text: 'Have a project in mind, or a problem at the boundary of physics and code? Reach out on [LinkedIn](https://www.linkedin.com/in/valentin-caries/).'
     design:
       columns: '2'
 ---

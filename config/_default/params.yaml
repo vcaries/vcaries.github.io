@@ -18,7 +18,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: 'Valentin Caries'
-    description: 'Valentin Caries — Ingénieur de recherche et doctorant en aérodynamique et développement Python scientifique (CFD, simulation, modélisation d''ordre réduit, data engineering, machine learning).'
+    description: 'Valentin Caries, ingénieur de recherche et docteur en aérodynamique et développement Python scientifique (CFD, simulation, modélisation d''ordre réduit, data engineering, calcul haute performance).'
     twitter: ''
   analytics:
     google_analytics: ''
@@ -68,7 +68,7 @@ features:
   math:
     enable: true
   privacy_pack:
-    enable: false
+    enable: true
   repository:
     url: 'https://github.com/vcaries/vcaries.github.io'
     content_dir: content

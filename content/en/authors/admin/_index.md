@@ -25,7 +25,7 @@ organizations:
     url: https://www.ifpenergiesnouvelles.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I build fast, reliable scientific software for fluid mechanics — from CFD and reduced-order models to data pipelines and machine-learning surrogates.
+bio: I build fast, reliable scientific software for fluid mechanics, from CFD and reduced-order models to data and post-processing pipelines.
 
 # Interests to show in About widget
 interests:
@@ -33,7 +33,7 @@ interests:
   - Computational Fluid Dynamics (CFD)
   - Multiphase flow & turbomachinery
   - Reduced-order & multi-fidelity modeling
-  - Machine learning for engineering
+  - High-performance computing (HPC)
 
 # Education to show in About widget
 education:
@@ -54,9 +54,11 @@ education:
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: mailto:valentin.caries@ifpen.fr
+  # Email icon hidden until a dedicated professional address exists (avoids using
+  # the IFPEN work address for freelance contact). Restore with the new address:
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: mailto:your-pro-email@example.com
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?hl=en&user=Zk00T9YAAAAJ
@@ -82,7 +84,7 @@ highlight_name: true
 
 I am Valentin Caries, a **research engineer at IFP Energies nouvelles (IFPEN)**, where I work on multiphase pump systems. I hold a **PhD in aerodynamics from École Centrale de Lyon** (2025), carried out in partnership with Safran Aircraft Engines. My work sits at the meeting point of **fluid mechanics, numerical methods and software engineering**: I design physical models, turn them into fast and maintainable code, and validate them against high-fidelity simulations and experiments.
 
-During my PhD I developed a low-order, three-dimensional aerodynamic solver that predicts the flow around compressor and fan rotors — including the notoriously difficult tip-leakage flow — in seconds instead of hours, making it usable for early-stage design exploration. I have worked across the full computational spectrum, from **wall-resolved Large Eddy Simulation (LES) on HPC clusters** to **reduced-order panel and vortex-lattice methods**, and built the data and post-processing tooling that ties it all together.
+During my PhD I developed a low-order, three-dimensional aerodynamic solver that predicts the flow around compressor and fan rotors, including the notoriously difficult tip-leakage flow, in seconds instead of hours, making it usable for early-stage design exploration. I have worked across the full computational spectrum, from **wall-resolved Large Eddy Simulation (LES) on HPC clusters** to **reduced-order panel and vortex-lattice methods**, and built the data and post-processing tooling that ties it all together.
 
-Alongside my research, I am open to selected **freelance and consulting work** in scientific Python, CFD and simulation, data engineering, and machine learning for engineering. If you need someone who understands both the physics and the code, [let's talk](/en/#contact).
+Alongside my research, I am open to selected **freelance and consulting work** in scientific Python, CFD and simulation, data engineering, and high-performance computing. If you need someone who understands both the physics and the code, [let's talk](/en/#contact).
 {style="text-align: justify;"}

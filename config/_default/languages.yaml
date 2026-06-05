@@ -12,10 +12,9 @@ fr:
   title: Valentin Caries
   params:
     description: >-
-      Valentin Caries — Ingénieur de recherche et doctorant en aérodynamique,
+      Valentin Caries, ingénieur de recherche et docteur en aérodynamique,
       spécialisé en développement Python scientifique. Simulation CFD,
-      modélisation d'ordre réduit, data engineering et machine learning pour
-      l'ingénierie.
+      modélisation d'ordre réduit, data engineering et calcul haute performance.
 
 # Second language: English (served under /en/)
 en:
@@ -26,7 +25,6 @@ en:
   title: Valentin Caries
   params:
     description: >-
-      Valentin Caries — Research engineer and PhD candidate in aerodynamics,
-      specialized in scientific Python development. CFD simulation,
-      reduced-order modeling, data engineering and machine learning for
-      engineering.
+      Valentin Caries, research engineer and PhD in aerodynamics, specialized
+      in scientific Python development. CFD simulation, reduced-order modeling,
+      data engineering and high-performance computing.
